@@ -1,0 +1,10 @@
+{
+    "name": "paragraph",
+    "type": "tag",
+    "version": "1.0",
+    "author":"Mybizna",
+    "website":"www.mybizna.com",
+    "email":"info@mybizna.com",
+    "license":" GNU General Public License version 2 or later",
+    "description":"Paragraph Tag"
+}
