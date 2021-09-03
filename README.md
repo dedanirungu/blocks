@@ -15,12 +15,9 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Implementations](#implementations)
 - [What's included?](#whats-included)
 - [Dependencies](#dependencies)
-- [Categories](#categories)
 - [Browser support](#browser-support)
-- [Community](#community)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing guidelines](#contributing-guidelines)
 - [Contributors](#contributors)
