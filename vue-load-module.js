@@ -24,9 +24,9 @@ const options = {
 }
 
 const fetchTag = (tag_name) => {
-    return Vue.defineAsyncComponent(() => loadModule('https://utupress.github.io/tags/' + tag_name + '/index.vue', options))
+    return Vue.defineAsyncComponent(() => loadModule('https://utupress.github.io/blocks/' + tag_name + '/index.vue', options))
 }
 
-const fetchWebsite = (tag_name) => {
+const fetchPage = (tag_name) => {
     return Vue.defineAsyncComponent(() => loadModule('./' + tag_name, options))
 }
