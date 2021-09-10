@@ -28,5 +28,5 @@ const fetchTag = (tag_name) => {
 }
 
 const fetchPage = (tag_name) => {
-    return Vue.defineAsyncComponent(() => loadModule('./' + tag_name, options))
+    return Vue.defineAsyncComponent(() => loadModule('./pages/' + tag_name, options))
 }
