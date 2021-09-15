@@ -14,13 +14,13 @@
   export default {
     name: "harticle",
     components: {
-      'header1': fetchTag('header1'),
-      'header2': fetchTag('header2'),
-      'header3': fetchTag('header3'),
-      'header4': fetchTag('header4'),
-      'header5': fetchTag('header5'),
-      'header6': fetchTag('header6'),
-      'paragraph': fetchTag('paragraph')
+      'header1': fetchBlock('header1'),
+      'header2': fetchBlock('header2'),
+      'header3': fetchBlock('header3'),
+      'header4': fetchBlock('header4'),
+      'header5': fetchBlock('header5'),
+      'header6': fetchBlock('header6'),
+      'paragraph': fetchBlock('paragraph')
     },
     props: {
       header: {
