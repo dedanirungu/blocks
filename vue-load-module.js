@@ -67,7 +67,7 @@ const options = {
 }
 
 const fetchBlock = (tag_name) => {
-    return Vue.defineAsyncComponent(() => loadModule('https://utupress.github.io/blocks/' + tag_name + '/index.vue', options));
+    return Vue.defineAsyncComponent(() => loadModule(window.block_url + tag_name + '/index.vue', options));
 }
 
 const fetchPage = (tag_name) => {
